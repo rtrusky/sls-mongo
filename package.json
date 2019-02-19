@@ -1,0 +1,19 @@
+{
+  "name": "rt-sls-express-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "offline": "sls offline start --skipCacheInvalidation"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "mongoose": "^5.4.12"
+  },
+  "devDependencies": {
+    "serverless-offline": "^4.4.2"
+  }
+}
