@@ -1,5 +1,5 @@
 
-service: rt-sls-express-mongodb
+service: sls-mongo
 
 custom:
   secrets: ${file(secrets.json)}
