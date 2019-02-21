@@ -3,7 +3,6 @@ const connectToDatabase = require('./db');
 const Tab = require('./models/tab');
 module.exports.create = async (event, context) => {
     await connectToDatabase();
-
     try {
         const TabModel = await Tab.create(JSON.parse(event.body));
         return {
