@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "offline": "sls offline start --skipCacheInvalidation"
+    "offline": "sls offline start --skipCacheInvalidation",
+    "inspect": "node --inspect /home/rich/.nvm/versions/node/v10.13.0/bin/serverless offline start --skipCacheInvalidation"
   },
   "keywords": [],
   "author": "",
